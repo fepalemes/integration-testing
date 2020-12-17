@@ -24,11 +24,11 @@ public class Process {
         return URL_PROCESS;
     }
 
-    public static String getLastUser() {
+    public static String getLastProcess() {
         return lastProcess;
     }
 
-    public static void setLastUser(String lastProcess) {
+    public static void setLastProcess(String lastProcess) {
         Process.lastProcess = lastProcess;
     }
 }

@@ -1,88 +1,89 @@
-Feature: Process CRUD
+#language: pt
 
-  Scenario: User save a register with post
-    Given user would like to save a process
-    And user informs vara with value equal "São Paulo"
-    And user informs numero_processo with value equal "1"
-    And user informs natureza with value equal "Cívil"
-    And user informs partes with value equal "Felipe X Victor"
-    And user informs urgente with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs assistente_social with value equal "Robson"
-    And user informs data_entrada with value equal "2020-12-15"
-    And user informs data_agendamento with value equal "2020-12-20"
-    And user informs status with value equal "Aguardando"
-    And user informs observacao with value equal "Teste 1"
-    When user clicks on save button
-    Then user should see "save with success" message
+Funcionalidade: Process CRUD
 
-  Scenario: User show a register with get
-    Given user would like to save a process
-    And user informs vara with value equal "São Paulo"
-    And user informs numero_processo with value equal "1"
-    And user informs natureza with value equal "Cívil"
-    And user informs partes with value equal "Felipe X Victor"
-    And user informs urgente with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs assistente_social with value equal "Robson"
-    And user informs data_entrada with value equal "2020-12-15"
-    And user informs data_agendamento with value equal "2020-12-20"
-    And user informs status with value equal "Aguardando"
-    And user informs observacao with value equal "Teste 1"
-    When user clicks on save button
-    And user wants to see process information
-    Then user should see "success" message
-    And user should see partes with value "Felipe X Victor"
-    And user should see numero_processo with value "1"
+  Cenário: Usuario salva um processo via POST
+    Dado usuario gostaria de salvar um processo
+    E usuario informa vara com valor igual "Rio de Janeiro"
+    E usuario informa numero_processo com valor igual "50"
+    E usuario informa natureza com valor igual "Criminal"
+    E usuario informa partes com valor igual "João X Maria"
+    E usuario informa urgente com valor igual "N"
+    E usuario informa arbitramento com valor igual "S"
+    E usuario informa assistente_social com valor igual "Marcos"
+    E usuario informa data_entrada com valor igual "2020-12-17"
+    E usuario informa data_saida com valor igual "2021-01-02"
+    E usuario informa data_agendamento com valor igual "2020-12-20"
+    E usuario informa status com valor igual "Concluído"
+    E usuario informa observacao com valor igual "Teste via POST"
+    Quando usuario clica em salvar
+    Então usuario devera ver a mensagem de "Salvo com sucesso"
 
-  Scenario: User update a register with put
-    Given user would like to save a process
-    And user informs vara with value equal "São Paulo"
-    And user informs numero_processo with value equal "1"
-    And user informs natureza with value equal "Cívil"
-    And user informs partes with value equal "Felipe X Victor"
-    And user informs urgente with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs assistente_social with value equal "Robson"
-    And user informs data_entrada with value equal "2020-12-15"
-    And user informs data_agendamento with value equal "2020-12-20"
-    And user informs status with value equal "Aguardando"
-    And user informs observacao with value equal "Teste 1"
-    When user clicks on save button
-    And user informs vara with value equal "São Paulo"
-    And user informs numero_processo with value equal "2"
-    And user informs natureza with value equal "Cívil"
-    And user informs partes with value equal "Felipe X Victor"
-    And user informs urgente with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs assistente_social with value equal "Robson"
-    And user informs data_entrada with value equal "2020-12-15"
-    And user informs data_agendamento with value equal "2020-12-20"
-    And user informs status with value equal "Aguardando"
-    And user informs observacao with value equal "Teste 1"
-    And user clicks on save button again
-    And user wants to see process information
-    Then user should see "success" message
-    And user should see numero_processo with value "2"
 
-  Scenario: User delete a register with delete
-    Given user would like to save a process
-    And user informs vara with value equal "São Paulo"
-    And user informs numero_processo with value equal "3"
-    And user informs natureza with value equal "Cívil"
-    And user informs partes with value equal "Felipe X Victor"
-    And user informs urgente with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs arbitramento with value equal "S"
-    And user informs assistente_social with value equal "Robson"
-    And user informs data_entrada with value equal "2020-12-15"
-    And user informs data_agendamento with value equal "2020-12-20"
-    And user informs status with value equal "Concluído"
-    And user informs observacao with value equal "Teste 2"
-    When user clicks on save button
-    And user clicks on delete button
-    Then user should see "no content" message
+  Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST
+    Dado usuario deseja ver as informacoes do processo
+    E usuario informa vara com valor igual "Mato Grosso"
+    E usuario informa numero_processo com valor igual "0113"
+    E usuario informa natureza com valor igual "Cívil"
+    E usuario informa partes com valor igual "Amelia X Jose"
+    E usuario informa urgente com valor igual "S"
+    E usuario informa arbitramento com valor igual "S"
+    E usuario informa assistente_social com valor igual "Erik"
+    E usuario informa data_entrada com valor igual "2020-12-16"
+    E usuario informa data_saida com valor igual "2021-03-02"
+    E usuario informa data_agendamento com valor igual "2020-12-22"
+    E usuario informa status com valor igual "Aguardando"
+    E usuario informa observacao com valor igual "Teste via GET"
+    Quando usuario clica em salvar
+    E usuario deseja ver as informacoes do processo
+    Então usuario devera ver a mensagem de "Sucesso"
+    E usuario devera ver partes com valor "Amelia X Jose"
+    E usuario devera ver numero_processo com valor "0113"
+
+
+  Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST
+    Dado usuario gostaria de salvar um processo
+    E usuario informa vara com valor igual "Pernambuco"
+    E usuario informa numero_processo com valor igual "0130"
+    E usuario informa natureza com valor igual "Cívil"
+    E usuario informa partes com valor igual "Silvia X Fabiano"
+    E usuario informa urgente com valor igual "S"
+    E usuario informa arbitramento com valor igual "N"
+    E usuario informa assistente_social com valor igual "Francisco"
+    E usuario informa data_entrada com valor igual "2020-12-17"
+    E usuario informa data_agendamento com valor igual "2020-12-30"
+    E usuario informa status com valor igual "Aguardando"
+    E usuario informa observacao com valor igual "Teste via PUT"
+    Quando usuario clica em salvar
+    E usuario informa vara com valor igual "São Paulo"
+    E usuario informa numero_processo com valor igual "0130"
+    E usuario informa natureza com valor igual "Cívil"
+    E usuario informa partes com valor igual "Thais X Felipe"
+    E usuario informa urgente com valor igual "N"
+    E usuario informa arbitramento com valor igual "S"
+    E usuario informa assistente_social com valor igual "Marcos"
+    E usuario informa data_entrada com valor igual "2020-12-15"
+    E usuario informa data_agendamento com valor igual "2020-12-20"
+    E usuario informa status com valor igual "Concluído"
+    E usuario informa observacao com valor igual "Teste via PUT OK"
+    E usuario clica no botao salvar novamente
+    E usuario deseja ver as informacoes do processo
+    Então usuario devera ver a mensagem de "Sucesso"
+    E usuario devera ver numero_processo com valor "0130"
+
+  Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST
+    Dado usuario gostaria de salvar um processo
+    E usuario informa vara com valor igual "São Carlos"
+    E usuario informa numero_processo com valor igual "0212"
+    E usuario informa natureza com valor igual "Criminal"
+    E usuario informa partes com valor igual "Barbosa X Pachecho"
+    E usuario informa urgente com valor igual "S"
+    E usuario informa arbitramento com valor igual "N"
+    E usuario informa assistente_social com valor igual "Da Silva"
+    E usuario informa data_entrada com valor igual "2020-12-18"
+    E usuario informa data_agendamento com valor igual "2020-12-25"
+    E usuario informa status com valor igual "Concluído"
+    E usuario informa observacao com valor igual "Teste DELETE"
+    Quando usuario clica em salvar
+    E usuario clica no botao deletar
+    Então usuario devera ver a mensagem de "Sem conteudo"
