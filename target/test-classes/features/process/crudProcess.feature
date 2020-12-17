@@ -1,8 +1,9 @@
 #language: pt
 
+@realizarteste
 Funcionalidade: Process CRUD
 
-  Cenário: Usuario salva um processo via POST
+  Contexto:
     Dado usuario gostaria de salvar um processo
     E usuario informa vara com valor igual "Rio de Janeiro"
     E usuario informa numero_processo com valor igual "50"
@@ -15,10 +16,33 @@ Funcionalidade: Process CRUD
     E usuario informa data_saida com valor igual "2021-01-02"
     E usuario informa data_agendamento com valor igual "2020-12-20"
     E usuario informa status com valor igual "Concluído"
-    E usuario informa observacao com valor igual "Teste via POST"
+    E usuario informa observacao com valor igual "Teste com o uso de backgound"
+
+  Cenário: Usuario salva um processo via POST (Com o uso de backgound)
     Quando usuario clica em salvar
     Então usuario devera ver a mensagem de "Salvo com sucesso"
 
+  Cenário: Usuario salva um processo via POST (Sem o uso de backgound)
+    Dado usuario gostaria de salvar um processo
+    E usuario informa vara com valor igual "Rio de Janeiro"
+    E usuario informa numero_processo com valor igual "50"
+    E usuario informa natureza com valor igual "Criminal"
+    E usuario informa partes com valor igual "João X Maria"
+    E usuario informa urgente com valor igual "N"
+    E usuario informa arbitramento com valor igual "S"
+    E usuario informa assistente_social com valor igual "Marcos"
+    E usuario informa data_entrada com valor igual "2020-12-17"
+    E usuario informa data_saida com valor igual "2021-01-02"
+    E usuario informa data_agendamento com valor igual "2020-12-20"
+    E usuario informa status com valor igual "Concluído"
+    E usuario informa observacao com valor igual "Teste via POST sem o uso de background"
+    Quando usuario clica em salvar
+    Então usuario devera ver a mensagem de "Salvo com sucesso"
+
+  Cenário: Usuario visualiza processo já criado via GET
+    Dado usuario deseja ver as informacoes do processo especifico "2945"
+    Quando o usuario clicar em mostrar
+    Então usuario devera ver a mensagem de "Sucesso"
 
   Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST
     Dado usuario deseja ver as informacoes do processo
@@ -39,7 +63,6 @@ Funcionalidade: Process CRUD
     Então usuario devera ver a mensagem de "Sucesso"
     E usuario devera ver partes com valor "Amelia X Jose"
     E usuario devera ver numero_processo com valor "0113"
-
 
   Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST
     Dado usuario gostaria de salvar um processo
@@ -87,3 +110,29 @@ Funcionalidade: Process CRUD
     Quando usuario clica em salvar
     E usuario clica no botao deletar
     Então usuario devera ver a mensagem de "Sem conteudo"
+
+
+  Esquema do Cenário: Validação de POST via Scenario Outline. Teste: <mensagem retorno>
+    Dado usuario gostaria de salvar um processo
+    E usuario informa vara com valor igual "<vara>"
+    E usuario informa numero_processo com valor igual "3122"
+    E usuario informa natureza com valor igual "Criminal"
+    E usuario informa partes com valor igual "Vanessa X Manoel"
+    E usuario informa urgente com valor igual "N"
+    E usuario informa arbitramento com valor igual "S"
+    E usuario informa assistente_social com valor igual "Igor"
+    E usuario informa data_entrada com valor igual "2020-12-17"
+    E usuario informa data_saida com valor igual "2021-01-02"
+    E usuario informa data_agendamento com valor igual "2020-12-20"
+    E usuario informa status com valor igual "Concluído"
+    E usuario informa observacao com valor igual "Validação de POST via Scenario Outline"
+    Quando usuario clica em salvar - scenario outline
+    Então usuario devera ver a mensagem de "<mensagem retorno>"
+
+    Exemplos:
+      | vara    | mensagem retorno        |
+      | Paraiba | Salvo com sucesso       |
+      |         | Entidade nao processada |
+
+
+

@@ -20,6 +20,7 @@ public class GeneralSteps {
         messageJson.put("Sem conteudo", 204);
         messageJson.put("Nao encontrado", 404);
         messageJson.put("Nao autorizado", 401);
+        messageJson.put("Entidade nao processada", 422);
 
         Assert.assertEquals(messageJson.get(type),RESTSupport.getResponseCode());
     }

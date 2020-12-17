@@ -41,4 +41,24 @@ public class ProcessosSteps {
         RESTSupport.executeDelete(Process.getEndPoint() + Process.getLastProcess() + ".json");
     }
 
+    @Dado("^usuario deseja ver as informacoes do processo especifico \"([^\"]*)\"$")
+    public void usuarioDesejaVerAsInformacoesDoProcessoEspecifico(String idProcesso) throws Throwable {
+        Process.setIdProcess(idProcesso);
+    }
+
+    @Quando("^o usuario clicar em mostrar$")
+    public void oUsuarioClicarEmMostrar() {
+        RESTSupport.executeGet(Process.getEndPoint() + Process.getIdProcess() );
+
+    }
+
+    @Quando("^o usuario clicar em editar$")
+    public void oUsuarioClicarEmEditar() {
+        RESTSupport.executeGet(Process.getEndPoint() + Process.getIdProcess() );
+    }
+
+    @Quando("^usuario clica em salvar - scenario outline$")
+    public void usuarioClicaEmSalvarEmBranco() {
+        RESTSupport.executePost(Process.getEndPoint(), Process.getFields());
+    }
 }

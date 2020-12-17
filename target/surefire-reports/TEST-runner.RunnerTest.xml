@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="7.125" tests="223" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2020.2.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/fepalemes/Documents/Pós-graduação/integration-testing"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/fepalemes/Documents/Pós-graduação/integration-testing"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/c6/z7rncz9s2s1fwtht_n8c233c0000gr/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/fepalemes/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/fepalemes"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="fepalemes"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.2.4 verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="/Users/fepalemes/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Dado usuario gostaria de salvar um processo(Cenário: Usuario salva um processo via POST " classname="Dado usuario gostaria de salvar um processo(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0.001"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa numero_processo com valor igual &quot;50&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa natureza com valor igual &quot;Criminal&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa partes com valor igual &quot;João X Maria&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa urgente com valor igual &quot;N&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa arbitramento com valor igual &quot;S&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa assistente_social com valor igual &quot;Marcos&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa status com valor igual &quot;Concluído&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="Quando usuario clica em salvar(Cenário: Usuario salva um processo via POST " classname="Quando usuario clica em salvar(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="Então usuario devera ver a mensagem de &quot;Salvo com sucesso&quot;(Cenário: Usuario salva um processo via POST " classname="Então usuario devera ver a mensagem de &quot;Salvo com sucesso&quot;(Cenário: Usuario salva um processo via POST (Com o uso de backgound))" time="0"/>
+  <testcase name="Cenário: Usuario salva um processo via POST " classname="Com o uso de backgound" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo(Cenário: Usuario salva um processo via POST " classname="Dado usuario gostaria de salvar um processo(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo(Cenário: Usuario salva um processo via POST " classname="Dado usuario gostaria de salvar um processo(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa numero_processo com valor igual &quot;50&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa numero_processo com valor igual &quot;50&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa natureza com valor igual &quot;Criminal&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa natureza com valor igual &quot;Criminal&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa partes com valor igual &quot;João X Maria&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa partes com valor igual &quot;João X Maria&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa urgente com valor igual &quot;N&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa urgente com valor igual &quot;N&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa arbitramento com valor igual &quot;S&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa arbitramento com valor igual &quot;S&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa assistente_social com valor igual &quot;Marcos&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa assistente_social com valor igual &quot;Marcos&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa status com valor igual &quot;Concluído&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa status com valor igual &quot;Concluído&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste via POST sem o uso de background&quot;(Cenário: Usuario salva um processo via POST " classname="E usuario informa observacao com valor igual &quot;Teste via POST sem o uso de background&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="Quando usuario clica em salvar(Cenário: Usuario salva um processo via POST " classname="Quando usuario clica em salvar(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="Então usuario devera ver a mensagem de &quot;Salvo com sucesso&quot;(Cenário: Usuario salva um processo via POST " classname="Então usuario devera ver a mensagem de &quot;Salvo com sucesso&quot;(Cenário: Usuario salva um processo via POST (Sem o uso de backgound))" time="0"/>
+  <testcase name="Cenário: Usuario salva um processo via POST " classname="Sem o uso de backgound" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="Dado usuario deseja ver as informacoes do processo especifico &quot;2945&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="Quando o usuario clicar em mostrar" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="Então usuario devera ver a mensagem de &quot;Sucesso&quot;" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="Cenário: Usuario visualiza processo já criado via GET" classname="Cenário: Usuario visualiza processo já criado via GET" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Dado usuario deseja ver as informacoes do processo" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Mato Grosso&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;0113&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Cívil&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;Amelia X Jose&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;S&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Erik&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-16&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-03-02&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-22&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Aguardando&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste via GET&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Quando usuario clica em salvar" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario deseja ver as informacoes do processo" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Então usuario devera ver a mensagem de &quot;Sucesso&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario devera ver partes com valor &quot;Amelia X Jose&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario devera ver numero_processo com valor &quot;0113&quot;" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" classname="Cenário: Usuario visualiza processo via GET apos salvar o mesmo via POST" time="0.001"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0.001"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Pernambuco&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;0130&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;0130&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Cívil&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Cívil&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;Silvia X Fabiano&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;S&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;N&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Francisco&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-30&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Aguardando&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste via PUT&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Quando usuario clica em salvar" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;São Paulo&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;Thais X Felipe&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-15&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste via PUT OK&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario clica no botao salvar novamente" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario deseja ver as informacoes do processo" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Então usuario devera ver a mensagem de &quot;Sucesso&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario devera ver numero_processo com valor &quot;0130&quot;" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" classname="Cenário: Usuario atualiza um processo via PUT apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;São Carlos&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;0212&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;Barbosa X Pachecho&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;S&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;N&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Da Silva&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-18&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-25&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste DELETE&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Quando usuario clica em salvar" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="E usuario clica no botao deletar" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Então usuario devera ver a mensagem de &quot;Sem conteudo&quot;" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" classname="Cenário: Usuario deleta um processo via DELETE apos salvar o mesmo via POST" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="| Paraiba | Salvo com sucesso |" time="0.001"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Paraiba&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;3122&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;Vanessa X Manoel&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Igor&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Validação de POST via Scenario Outline&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="Quando usuario clica em salvar - scenario outline" classname="| Paraiba | Salvo com sucesso |" time="0.001"/>
+  <testcase name="Então usuario devera ver a mensagem de &quot;Salvo com sucesso&quot;" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="| Paraiba | Salvo com sucesso |" classname="| Paraiba | Salvo com sucesso |" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="Dado usuario gostaria de salvar um processo" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;Rio de Janeiro&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;50&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa natureza com valor igual &quot;Criminal&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;João X Maria&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa urgente com valor igual &quot;N&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa arbitramento com valor igual &quot;S&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Marcos&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa data_entrada com valor igual &quot;2020-12-17&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa data_saida com valor igual &quot;2021-01-02&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa data_agendamento com valor igual &quot;2020-12-20&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa status com valor igual &quot;Concluído&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Teste com o uso de backgound&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa vara com valor igual &quot;&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa numero_processo com valor igual &quot;3122&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa partes com valor igual &quot;Vanessa X Manoel&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa assistente_social com valor igual &quot;Igor&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="E usuario informa observacao com valor igual &quot;Validação de POST via Scenario Outline&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="Quando usuario clica em salvar - scenario outline" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="Então usuario devera ver a mensagem de &quot;Entidade nao processada&quot;" classname="|  | Entidade nao processada |" time="0"/>
+  <testcase name="|  | Entidade nao processada |" classname="|  | Entidade nao processada |" time="0"/>
+</testsuite>
